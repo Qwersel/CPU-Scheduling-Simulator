@@ -209,5 +209,5 @@ class Scheduler:
         else:
             print("\nNo processes = no calculations. Try 'reset' for better luck next time")
         
-        print("---------------------------\n")
+        print("H---------------------------H\n")
 
