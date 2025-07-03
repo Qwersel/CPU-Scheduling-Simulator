@@ -4,7 +4,7 @@ import logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - SCHEDULER - %(levelname)s - %(message)s')
 
 class Scheduler:
-    #Process manag
+    #Process management
     def __init__(self):
         self.ready_queue = collections.deque()
         self.all_processes = []
